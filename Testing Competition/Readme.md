@@ -92,6 +92,9 @@ The workflow followed in this notebook is outlined below:
 - Avoiding aggressive outlier removal helped preserve predictive patterns
 - Incremental preprocessing led to noticeable performance improvements
 
+### Public Score
+- `1.11360`
+
 ---
 
 ## Tools & Technologies Used
