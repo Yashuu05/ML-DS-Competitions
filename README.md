@@ -1,4 +1,4 @@
-# 🧠 Machine Learning & Data Science Competitions
+#  Machine Learning & Data Science Competitions
 
 This repository serves as a **central collection of my work from various machine learning and data science competitions** participated in across platforms such as **Kaggle** and other organizations.
 
@@ -6,7 +6,7 @@ Each competition is organized in its **own dedicated folder**, containing notebo
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 - Practice real-world **machine learning problem-solving**
   
@@ -20,7 +20,7 @@ Each competition is organized in its **own dedicated folder**, containing notebo
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **Programming Language:** Python  
 - **Libraries:**  
@@ -31,7 +31,7 @@ Each competition is organized in its **own dedicated folder**, containing notebo
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Each competition folder includes its **own README** describing:
   - Problem statement
@@ -43,7 +43,7 @@ Each competition is organized in its **own dedicated folder**, containing notebo
 
 ---
 
-## 🚀 Purpose of This Repository
+##  Purpose of This Repository
 
 This repository acts as:
 - A **learning log** of my data science journey
@@ -52,10 +52,10 @@ This repository acts as:
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
-Thanks to **Kaggle** and other competition platforms for providing high-quality datasets and real-world problem statements.
+Thanks to **Kaggle** and other competition (drivendata.org) platforms for providing high-quality datasets and real-world problem statements.
 
 ---
 
-Happy experimenting and learning! 📊🚀
+Happy experimenting and learning! 
