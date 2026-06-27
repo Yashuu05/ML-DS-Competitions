@@ -1,2 +1,6 @@
 # virtual environment
 comp/
+
+# datasets
+Steller_classifcation/Data/
+Data/
