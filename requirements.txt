@@ -7,3 +7,5 @@ xgboost
 lightgbm
 ipykernel
 mlflow
+optuna
+optuna-dashboard

@@ -64,7 +64,7 @@ def main():
     
     model = Pipeline(steps=[
         ('prep', preprocssor),
-        ('model', DecisionTreeClassifier(max_depth=6, criterion="entropy", random_state=0))
+        ('model', RandomForestClassifier(n_estimators=200, n_jobs=-2, max_depth=7, criterion="entropy", random_state=0, verbose=2))
     ])
     
     with mlflow.start_run():
@@ -91,8 +91,8 @@ def main():
             "id": ids,
             "class": test_preds_decoded
         })
-        submission.to_csv("Results/submission1.csv", index=False)
-        print("Submission saved to Results/submission1.csv")
+        submission.to_csv("Results/submission2.csv", index=False)
+        print("Submission saved to Results/submission2.csv")
 
 if __name__ == "__main__":
     mlflow.set_tracking_uri("sqlite:///mlflow.db")
