@@ -1,0 +1,35 @@
+artifact_path: file:///C:/Users/chill/OneDrive/Documents/ML-DS Competition/steller_classification/mlruns/1/models/m-00411fe9f532439ab80920e1078cd836/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-00411fe9f532439ab80920e1078cd836
+model_size_bytes: 11073340
+model_uuid: m-00411fe9f532439ab80920e1078cd836
+prompts: null
+run_id: e86dcf9b39664e389e20d4094a10ffff
+signature:
+  inputs: '[{"type": "double", "name": "alpha", "required": true}, {"type": "double",
+    "name": "delta", "required": true}, {"type": "double", "name": "u", "required":
+    true}, {"type": "double", "name": "g", "required": true}, {"type": "double", "name":
+    "r", "required": true}, {"type": "double", "name": "i", "required": true}, {"type":
+    "double", "name": "z", "required": true}, {"type": "double", "name": "redshift",
+    "required": true}, {"type": "string", "name": "spectral_type", "required": true},
+    {"type": "string", "name": "galaxy_population", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-29 13:56:15.489343'
