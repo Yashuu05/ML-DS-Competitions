@@ -9,3 +9,4 @@ ipykernel
 mlflow
 optuna
 optuna-dashboard
+catboost
